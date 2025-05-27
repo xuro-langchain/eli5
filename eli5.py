@@ -43,7 +43,7 @@ def explain(question, context):
             {"role": "system", "content": formatted},
             {"role": "user", "content": question},
         ],
-        model="gpt-4o-mini",
+        model="gpt-3.5-turbo",
     )
     return completion.choices[0].message.content
 
@@ -54,5 +54,5 @@ def eli5(question):
     return answer
 
 # Run the application
-question = "What is complexity economics?"
+question = "What is trustcall?"
 print(eli5(question))
