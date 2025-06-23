@@ -25,7 +25,7 @@ Follow the example in .env.example to fill in the necessary information to run t
 
 ### Install dependencies
 
-Create a vritual enviornment
+Create a virtual enviornment
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -35,3 +35,16 @@ Install dependencies
 ```
 pip install -r requirements.txt
 ```
+
+### Running the Project
+
+Now you're ready to run the notebooks! Use the command
+```
+jupyter notebook
+```
+in the root directory to open up the notebooks.
+
+The notebooks are designed to be used in the following order:
+1. eli5_tracing
+2. eli5_prompting
+3. eli5_experiment
