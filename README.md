@@ -36,7 +36,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-### Running the Project
+## Running the Project
 
 Now you're ready to run the notebooks! Use the command
 ```
