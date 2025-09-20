@@ -46,5 +46,6 @@ in the root directory to open up the notebooks.
 
 The notebooks are designed to be used in the following order:
 1. eli5_tracing
+2. eli5_types
 2. eli5_prompting
 3. eli5_experiment

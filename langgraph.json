@@ -1,0 +1,9 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "ELI5": "./graphs.py:eli5_working",
+      "Buggy ELI5": "./graphs.py:eli5_buggy",
+      "Flaky ELI5": "./graphs.py:eli5_flaky"
+    },
+    "env": "./.env"
+}
