@@ -47,5 +47,12 @@ in the root directory to open up the notebooks.
 The notebooks are designed to be used in the following order:
 1. eli5_tracing
 2. eli5_types
-2. eli5_prompting
-3. eli5_experiment
+3. eli5_debugging
+4. eli5_prompting
+5. eli5_experiment
+
+
+## Other files
+
+Our ELI5 agent is implemented in ```eli5.py``` without using LangChain or LangGraph.
+We've implemented our ELI5 agent using LangGraph in ```graphs.py```, as well as some buggy versions of the agent.
