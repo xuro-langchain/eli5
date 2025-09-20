@@ -11,3 +11,4 @@ tavily-python
 wikipedia
 python-dotenv
 chromadb
+pandas
