@@ -16,7 +16,7 @@ To tackle this problem, we’ve built [LangGraph](https://langchain-ai.github.io
 
 ### Clone the ELI5 repo
 ```
-git clone https://github.com/langchain-ai/adaptive-rag-101.git
+git clone https://github.com/xuro-langchain/eli5.git
 ```
 
 ### Create .env file
